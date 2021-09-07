@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 <Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="848,1696" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="68">
+=======
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="812,1926" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="80">
+>>>>>>> 4f594de (Init File)
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -41,10 +47,18 @@
       <x:String>System.Runtime.InteropServices</x:String>
       <x:String>UiPath.CV.Activities</x:String>
       <x:String>UiPath.CV.Activities.Interfaces</x:String>
+<<<<<<< HEAD
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
     <scg:List x:TypeArguments="AssemblyReference" Capacity="70">
+=======
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="39">
+>>>>>>> 4f594de (Init File)
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -83,9 +97,16 @@
       <AssemblyReference>UiPath.CV</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+<<<<<<< HEAD
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="GetData" sap:VirtualizedContainerService.HintSize="822,1531" sap2010:WorkflowViewState.IdRef="Sequence_3">
+=======
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="GetData" sap:VirtualizedContainerService.HintSize="822,1760" sap2010:WorkflowViewState.IdRef="Sequence_3">
+>>>>>>> 4f594de (Init File)
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="DataBaca" />
       <Variable x:TypeArguments="x:String" Name="website" />
@@ -115,21 +136,53 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ReadRange>
+<<<<<<< HEAD
     <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DataBaca]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="780,1312" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+=======
+    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="780,215" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://www.google.com/maps/">
+      <ui:OpenBrowser.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="242,114" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Boolean" Name="status" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
+          </Sequence>
+        </ActivityAction>
+      </ui:OpenBrowser.Body>
+    </ui:OpenBrowser>
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DataBaca]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="780,1286" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+>>>>>>> 4f594de (Init File)
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="Row" />
           </ActivityAction.Argument>
+<<<<<<< HEAD
           <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="746,1192" sap2010:WorkflowViewState.IdRef="Sequence_2">
+=======
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="746,1166" sap2010:WorkflowViewState.IdRef="Sequence_2">
+>>>>>>> 4f594de (Init File)
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+<<<<<<< HEAD
             <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="704,132" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome" />
             <Flowchart sap:VirtualizedContainerService.HintSize="704,676" sap2010:WorkflowViewState.IdRef="Flowchart_3">
+=======
+            <Flowchart sap:VirtualizedContainerService.HintSize="704,676" sap2010:WorkflowViewState.IdRef="Flowchart_4">
+>>>>>>> 4f594de (Init File)
               <Flowchart.Variables>
                 <Variable x:TypeArguments="x:Boolean" Name="ADA" />
                 <Variable x:TypeArguments="x:Boolean" Name="LIST" />
@@ -156,7 +209,11 @@
                     <av:PointCollection x:Key="ConnectorLocation">320,40 450,40 450,96.5</av:PointCollection>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
+<<<<<<< HEAD
                 <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke OpenAndNavigateMaps workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Data Crawling\OpenAndNavigateMaps.xaml">
+=======
+                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke OpenAndNavigateMaps workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Data Crawling\OpenAndNavigateMaps.xaml">
+>>>>>>> 4f594de (Init File)
                   <ui:InvokeWorkflowFile.Arguments>
                     <InArgument x:TypeArguments="x:String" x:Key="in_provinsi">[row(2).ToString]</InArgument>
                     <InArgument x:TypeArguments="x:String" x:Key="in_statuscabang">[row(0).ToString]</InArgument>
@@ -171,7 +228,11 @@
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:InvokeWorkflowFile>
                 <FlowStep.Next>
+<<<<<<< HEAD
                   <FlowDecision x:Name="__ReferenceID1" Condition="[ADA]" DisplayName="Flow Decision Hasil Ditemukan" sap:VirtualizedContainerService.HintSize="160,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
+=======
+                  <FlowDecision x:Name="__ReferenceID1" Condition="[ADA]" DisplayName="Flow Decision Hasil Ditemukan" sap:VirtualizedContainerService.HintSize="160,87" sap2010:WorkflowViewState.IdRef="FlowDecision_5">
+>>>>>>> 4f594de (Init File)
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -190,7 +251,11 @@
                             <av:PointCollection x:Key="ConnectorLocation">240,515.5 240,545.5 220,545.5 220,580</av:PointCollection>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
+<<<<<<< HEAD
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke ScrapeData workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Data Crawling\ScrapeData.xaml">
+=======
+                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke ScrapeData workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Data Crawling\ScrapeData.xaml">
+>>>>>>> 4f594de (Init File)
                           <ui:InvokeWorkflowFile.Arguments>
                             <OutArgument x:TypeArguments="x:String" x:Key="out_alamatlengkap">[alamat]</OutArgument>
                             <OutArgument x:TypeArguments="x:String" x:Key="out_kota">[kota]</OutArgument>
@@ -213,7 +278,11 @@
                                 <av:Size x:Key="ShapeSize">262,60</av:Size>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
+<<<<<<< HEAD
                             <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+=======
+                            <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+>>>>>>> 4f594de (Init File)
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:String">[status]</OutArgument>
                               </Assign.To>
@@ -231,7 +300,11 @@
                       </FlowStep>
                     </FlowDecision.True>
                     <FlowDecision.False>
+<<<<<<< HEAD
                       <FlowDecision x:Name="__ReferenceID2" Condition="[LIST]" DisplayName="Flow Decision Hasil List" sap:VirtualizedContainerService.HintSize="129,87" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
+=======
+                      <FlowDecision x:Name="__ReferenceID2" Condition="[LIST]" DisplayName="Flow Decision Hasil List" sap:VirtualizedContainerService.HintSize="129,87" sap2010:WorkflowViewState.IdRef="FlowDecision_4">
+>>>>>>> 4f594de (Init File)
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -250,7 +323,11 @@
                                 <av:PointCollection x:Key="ConnectorLocation">280,415.5 280,445.5 240,445.5 240,464.5</av:PointCollection>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
+<<<<<<< HEAD
                             <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke ClickTopResult workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Data Crawling\ClickTopResult.xaml">
+=======
+                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke ClickTopResult workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Data Crawling\ClickTopResult.xaml">
+>>>>>>> 4f594de (Init File)
                               <ui:InvokeWorkflowFile.Arguments>
                                 <scg:Dictionary x:TypeArguments="x:String, Argument" />
                               </ui:InvokeWorkflowFile.Arguments>
@@ -273,10 +350,17 @@
                                 <av:Size x:Key="ShapeSize">200,51</av:Size>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
+<<<<<<< HEAD
                             <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
                               <ui:MultipleAssign.AssignOperations>
                                 <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
                                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+=======
+                            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                              <ui:MultipleAssign.AssignOperations>
+                                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
+                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+>>>>>>> 4f594de (Init File)
                                     <ui:AssignOperation.To>
                                       <OutArgument x:TypeArguments="x:String">[alamat]</OutArgument>
                                     </ui:AssignOperation.To>
@@ -284,7 +368,11 @@
                                       <InArgument x:TypeArguments="x:String">[Nothing]</InArgument>
                                     </ui:AssignOperation.Value>
                                   </ui:AssignOperation>
+<<<<<<< HEAD
                                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+=======
+                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
+>>>>>>> 4f594de (Init File)
                                     <ui:AssignOperation.To>
                                       <OutArgument x:TypeArguments="x:String">[kota]</OutArgument>
                                     </ui:AssignOperation.To>
@@ -292,7 +380,11 @@
                                       <InArgument x:TypeArguments="x:String">[Nothing]</InArgument>
                                     </ui:AssignOperation.Value>
                                   </ui:AssignOperation>
+<<<<<<< HEAD
                                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+=======
+                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_10">
+>>>>>>> 4f594de (Init File)
                                     <ui:AssignOperation.To>
                                       <OutArgument x:TypeArguments="x:String">[kodepos]</OutArgument>
                                     </ui:AssignOperation.To>
@@ -300,7 +392,11 @@
                                       <InArgument x:TypeArguments="x:String">[Nothing]</InArgument>
                                     </ui:AssignOperation.Value>
                                   </ui:AssignOperation>
+<<<<<<< HEAD
                                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+=======
+                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_11">
+>>>>>>> 4f594de (Init File)
                                     <ui:AssignOperation.To>
                                       <OutArgument x:TypeArguments="x:String">[website]</OutArgument>
                                     </ui:AssignOperation.To>
@@ -308,7 +404,11 @@
                                       <InArgument x:TypeArguments="x:String">[Nothing]</InArgument>
                                     </ui:AssignOperation.Value>
                                   </ui:AssignOperation>
+<<<<<<< HEAD
                                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+=======
+                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_12">
+>>>>>>> 4f594de (Init File)
                                     <ui:AssignOperation.To>
                                       <OutArgument x:TypeArguments="x:String">[codeplus]</OutArgument>
                                     </ui:AssignOperation.To>
@@ -316,7 +416,11 @@
                                       <InArgument x:TypeArguments="x:String">[Nothing]</InArgument>
                                     </ui:AssignOperation.Value>
                                   </ui:AssignOperation>
+<<<<<<< HEAD
                                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+=======
+                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_13">
+>>>>>>> 4f594de (Init File)
                                     <ui:AssignOperation.To>
                                       <OutArgument x:TypeArguments="x:String">[telepon]</OutArgument>
                                     </ui:AssignOperation.To>
@@ -324,7 +428,11 @@
                                       <InArgument x:TypeArguments="x:String">[Nothing]</InArgument>
                                     </ui:AssignOperation.Value>
                                   </ui:AssignOperation>
+<<<<<<< HEAD
                                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+=======
+                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_14">
+>>>>>>> 4f594de (Init File)
                                     <ui:AssignOperation.To>
                                       <OutArgument x:TypeArguments="x:String">[status]</OutArgument>
                                     </ui:AssignOperation.To>
@@ -354,7 +462,11 @@
               <x:Reference>__ReferenceID4</x:Reference>
               <x:Reference>__ReferenceID5</x:Reference>
             </Flowchart>
+<<<<<<< HEAD
             <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke WriteToExcel workflow" sap:VirtualizedContainerService.HintSize="704,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Data Crawling\WriteToExcelAlamat.xaml">
+=======
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke WriteToExcel workflow" sap:VirtualizedContainerService.HintSize="704,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Data Crawling\WriteToExcelAlamat.xaml">
+>>>>>>> 4f594de (Init File)
               <ui:InvokeWorkflowFile.Arguments>
                 <InArgument x:TypeArguments="x:String" x:Key="in_alamat">[alamat]</InArgument>
                 <InArgument x:TypeArguments="x:String" x:Key="in_kota">[kota]</InArgument>
@@ -375,6 +487,31 @@
                 <InArgument x:TypeArguments="x:Int32">[rowindex+1]</InArgument>
               </Assign.Value>
             </Assign>
+<<<<<<< HEAD
+=======
+            <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN  sb_cb50'" sap:VirtualizedContainerService.HintSize="704,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8dd8632e-41e8-48d9-9c86-30396c8bfc07" InformativeScreenshot="5e2322f3476b7c361aecdc5b8c8cf47b" Selector="&lt;html app='chrome.exe' /&gt;&lt;webctrl id='sb_cb50' tag='SPAN' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+>>>>>>> 4f594de (Init File)
           </Sequence>
         </ActivityAction>
       </ui:ForEachRow.Body>

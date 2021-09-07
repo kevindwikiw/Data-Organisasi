@@ -1,4 +1,5 @@
 ﻿{
+<<<<<<< HEAD
   "Id": "iD_sH54PqEaWvZettE0p3A",
   "Type": "Library",
   "Created": "2021-08-28T08:59:27.8689872Z",
@@ -6,4 +7,13 @@
     "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
   ],
   "Updated": "2021-08-28T08:59:27.8689872Z"
+=======
+  "Id": "UiWGZ_3is0KVi9-U9QUZtA",
+  "Type": "Library",
+  "Created": "2021-09-04T15:57:13.686388Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-09-04T15:57:13.686388Z"
+>>>>>>> 4f594de (Init File)
 }

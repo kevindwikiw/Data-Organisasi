@@ -1,6 +1,10 @@
 {
   "name": "UseCaseBCA",
+<<<<<<< HEAD
   "description": "Data Organisasi",
+=======
+  "description": "Blank Process",
+>>>>>>> 4f594de (Init File)
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.10.4]",
@@ -37,13 +41,21 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
+<<<<<<< HEAD
     "modernBehavior": true
+=======
+    "modernBehavior": false
+>>>>>>> 4f594de (Init File)
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
+<<<<<<< HEAD
       "uniqueId": "1d27b364-df78-422d-a277-645fc4700e68",
+=======
+      "uniqueId": "dedda063-6ab4-494f-8926-63d9a0bb9519",
+>>>>>>> 4f594de (Init File)
       "input": [],
       "output": []
     }

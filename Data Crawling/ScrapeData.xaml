@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <Activity mc:Ignorable="sap sap2010" x:Class="ScrapeData" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+=======
+<Activity mc:Ignorable="sap sap2010" x:Class="ScrapeData" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+>>>>>>> 4f594de (Init File)
   <x:Members>
     <x:Property Name="out_alamatlengkap" Type="OutArgument(x:String)" />
     <x:Property Name="out_kota" Type="OutArgument(x:String)" />
@@ -10,10 +14,17 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
+<<<<<<< HEAD
   <sap:VirtualizedContainerService.HintSize>848,2060</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ScrapeData_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
+=======
+  <sap:VirtualizedContainerService.HintSize>516,2128</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ScrapeData_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="66">
+>>>>>>> 4f594de (Init File)
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -45,10 +56,20 @@
       <x:String>System.Reflection</x:String>
       <x:String>System.Runtime.InteropServices</x:String>
       <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+<<<<<<< HEAD
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
+=======
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="33">
+>>>>>>> 4f594de (Init File)
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -80,11 +101,26 @@
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+<<<<<<< HEAD
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="ScrapeData" sap:VirtualizedContainerService.HintSize="526,1895" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="kota" />
+=======
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="ScrapeData" sap:VirtualizedContainerService.HintSize="526,1963" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="findStr">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Kota</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="output" />
+>>>>>>> 4f594de (Init File)
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -93,16 +129,27 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:GetValue ContinueOnError="True" DisplayName="Get Text Alamat" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="GetValue_5">
       <ui:GetValue.Target>
+<<<<<<< HEAD
         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4224ec5e-bf5f-4dd6-82e8-241a2042e9ac" InformativeScreenshot="12be801916f7e49ee7b43362a9718438" Selector="&lt;html app='chrome.exe' title='* - Google Maps' /&gt;&lt;webctrl aria-role='presentation' css-selector='body&amp;gt;jsl&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;img' tag='IMG' /&gt;&lt;nav up='3' /&gt;&lt;webctrl parentid='pane' tag='DIV' isleaf='1' parentclass='rogA2c' idx='1' /&gt;" WaitForReady="COMPLETE">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
+=======
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4224ec5e-bf5f-4dd6-82e8-241a2042e9ac" InformativeScreenshot="955db3c9ebb9d0095d89599b1988ae8d" Selector="&lt;html app='chrome.exe' /&gt;&lt;webctrl parentid='pane' tag='DIV' idx='54' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+>>>>>>> 4f594de (Init File)
         </ui:Target>
       </ui:GetValue.Target>
       <ui:GetValue.Value>
         <OutArgument x:TypeArguments="x:String">[out_alamatlengkap]</OutArgument>
       </ui:GetValue.Value>
     </ui:GetValue>
+<<<<<<< HEAD
     <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="484,160" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
       <ui:MultipleAssign.AssignOperations>
         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
@@ -114,12 +161,21 @@
               <InArgument x:TypeArguments="x:String">[out_alamatlengkap.Substring(out_alamatlengkap.Substring(0, out_alamatlengkap.LastIndexOf(",")).LastIndexOf(",") + 2)]</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
+=======
+    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="484,129" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+      <ui:MultipleAssign.AssignOperations>
+        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+>>>>>>> 4f594de (Init File)
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
             <ui:AssignOperation.To>
               <OutArgument x:TypeArguments="x:String">[out_kota]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
+<<<<<<< HEAD
               <InArgument x:TypeArguments="x:String">[kota.Substring(0, kota.IndexOf(","))]</InArgument>
+=======
+              <InArgument x:TypeArguments="x:String">[out_alamatlengkap.Substring(out_alamatlengkap.Substring(0, out_alamatlengkap.LastIndexOf(",")).LastIndexOf(",") + 2)]</InArgument>
+>>>>>>> 4f594de (Init File)
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
@@ -133,11 +189,19 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
+<<<<<<< HEAD
+=======
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[out_kota]" />
+>>>>>>> 4f594de (Init File)
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="484,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[out_alamatlengkap]" />
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="484,61" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[out_kota]" />
     <ui:GetValue ContinueOnError="True" DisplayName="Get Text Telepon" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="GetValue_1">
       <ui:GetValue.Target>
+<<<<<<< HEAD
         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4224ec5e-bf5f-4dd6-82e8-241a2042e9ac" InformativeScreenshot="7022dedadc3fa84f86ff9ee310a40044" Selector="&lt;html app='chrome.exe' title='* - Google Maps' /&gt;&lt;webctrl aria-role='presentation' css-selector='body&amp;gt;jsl&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;img' src='//www.gstatic.com/images/icons/material/system_gm/1x/phone_gm_bl*' tag='IMG' /&gt;&lt;nav up='3' /&gt;&lt;webctrl parentid='pane' tag='DIV' isleaf='1' parentclass='rogA2c' idx='1' /&gt;" TimeoutMS="5">
+=======
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4224ec5e-bf5f-4dd6-82e8-241a2042e9ac" InformativeScreenshot="49e7459166860cb228d4e0c39b31456d" Selector="&lt;html app='chrome.exe' /&gt;&lt;webctrl aaname='(02*' parentid='pane' tag='DIV' /&gt;" TimeoutMS="10">
+>>>>>>> 4f594de (Init File)
           <ui:Target.WaitForReady>
             <InArgument x:TypeArguments="ui:WaitForReady" />
           </ui:Target.WaitForReady>
@@ -160,9 +224,15 @@
       </If.Then>
     </If>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="484,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[out_telepon]" />
+<<<<<<< HEAD
     <ui:GetValue ContinueOnError="True" DisplayName="Get Text 'CODEPLUS'" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="GetValue_4">
       <ui:GetValue.Target>
         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b43716a1-be5e-4dba-9b41-859a9f847627" InformativeScreenshot="b7e72c0a761a5f701cfa84af10d9ff30" Selector="&lt;html app='chrome.exe' title='* - Google Maps' /&gt;&lt;webctrl aria-role='presentation' src='//maps.gstatic.com/mapfiles/maps_lite/images/2x/ic_plus_code.png' tag='IMG' /&gt;&lt;nav up='3' /&gt;&lt;webctrl parentid='pane' tag='DIV' isleaf='1' parentclass='rogA2c' idx='1' /&gt;" TimeoutMS="5">
+=======
+    <ui:GetValue ContinueOnError="True" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="GetValue_4">
+      <ui:GetValue.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b43716a1-be5e-4dba-9b41-859a9f847627" InformativeScreenshot="4a8f7630e4dc44c2a4f6dfd1428f80a5" Selector="&lt;html app='chrome.exe' /&gt;&lt;webctrl parentid='pane' tag='DIV' idx='158' /&gt;" TimeoutMS="10">
+>>>>>>> 4f594de (Init File)
           <ui:Target.WaitForReady>
             <InArgument x:TypeArguments="ui:WaitForReady" />
           </ui:Target.WaitForReady>
@@ -173,9 +243,15 @@
       </ui:GetValue.Value>
     </ui:GetValue>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="484,61" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[out_codeplus]" />
+<<<<<<< HEAD
     <ui:GetValue ContinueOnError="True" DisplayName="Get Text 'WEBSITE'" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="GetValue_3">
       <ui:GetValue.Target>
         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b43716a1-be5e-4dba-9b41-859a9f847627" InformativeScreenshot="d7a993eb24d4f05ae97d8f2700b7c5c8" Selector="&lt;html app='chrome.exe' title='* - Google Maps' /&gt;&lt;webctrl aria-role='presentation' css-selector='body&amp;gt;jsl&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;img' src='//www.gstatic.com/images/icons/material/system_gm/1x/public_gm_b*' tag='IMG' /&gt;&lt;nav up='3' /&gt;&lt;webctrl parentid='pane' tag='DIV' isleaf='1' parentclass='rogA2c HY5zDd' idx='1' /&gt;" TimeoutMS="5">
+=======
+    <ui:GetValue ContinueOnError="True" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="GetValue_3">
+      <ui:GetValue.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b43716a1-be5e-4dba-9b41-859a9f847627" InformativeScreenshot="d2e3f65bf5267e74663a9ef093b92098" Selector="&lt;html app='chrome.exe' /&gt;&lt;webctrl parentid='pane' tag='DIV' idx='114' /&gt;" TimeoutMS="10">
+>>>>>>> 4f594de (Init File)
           <ui:Target.WaitForReady>
             <InArgument x:TypeArguments="ui:WaitForReady" />
           </ui:Target.WaitForReady>

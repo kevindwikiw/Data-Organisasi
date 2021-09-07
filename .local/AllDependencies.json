@@ -3226,7 +3226,10 @@
       "path": "google.apis.auth/1.43.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< HEAD
         ".signature.p7s",
+=======
+>>>>>>> 4f594de (Init File)
         "LICENSE",
         "NuGetIcon.png",
         "google.apis.auth.1.43.0.nupkg.sha512",
@@ -3916,7 +3919,10 @@
       "path": "newtonsoft.json/11.0.2",
       "files": [
         ".nupkg.metadata",
+<<<<<<< HEAD
         ".signature.p7s",
+=======
+>>>>>>> 4f594de (Init File)
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -4780,7 +4786,10 @@
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+<<<<<<< HEAD
         "AllDependencies.json",
+=======
+>>>>>>> 4f594de (Init File)
         "build/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
         "build/ActiproSoftware.Docking.Wpf.dll",
         "build/ActiproSoftware.Editors.Wpf.dll",
@@ -4936,7 +4945,10 @@
         "lib/net461/zh-CN/UiPath.UIAutomationNext.resources.dll",
         "lib/net461/zh-CN/UiPath.UiAutomation.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.Wizards.resources.dll",
+<<<<<<< HEAD
         "nuget.cache",
+=======
+>>>>>>> 4f594de (Init File)
         "uipath.uiautomation.activities.21.4.4.nupkg.sha512",
         "uipath.uiautomation.activities.nuspec"
       ]
@@ -5015,15 +5027,25 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Kevin Dwiki Wijaya\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\FELIX\\.nuget\\packages\\": {}
+>>>>>>> 4f594de (Init File)
   },
   "project": {
     "restore": {
       "projectUniqueName": "UseCaseBCA",
       "projectName": "UseCaseBCA",
+<<<<<<< HEAD
       "projectPath": "C:\\Users\\Kevin Dwiki Wijaya\\Documents\\UiPath\\UseCaseBCA\\.local",
       "packagesPath": "C:\\Users\\Kevin Dwiki Wijaya\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Kevin Dwiki Wijaya\\Documents\\UiPath\\UseCaseBCA\\.local"
+=======
+      "projectPath": "C:\\Users\\FELIX\\Downloads\\Projek\\Data-Organisasi\\UseCaseBCA\\.local",
+      "packagesPath": "C:\\Users\\FELIX\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FELIX\\Downloads\\Projek\\Data-Organisasi\\UseCaseBCA\\.local"
+>>>>>>> 4f594de (Init File)
     },
     "frameworks": {
       "net461": {
@@ -5049,7 +5071,11 @@
             "version": "[21.4.4, 21.4.4]"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Users\\FELIX\\AppData\\Local\\UiPath\\app-21.4.4\\runtime.json"
+>>>>>>> 4f594de (Init File)
       }
     }
   }
